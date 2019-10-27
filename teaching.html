@@ -15,7 +15,7 @@
 <body>
   <div class="wrapper">
 
-<iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+<div data-include="header.html"></div>
 
 
 <section>
@@ -56,12 +56,12 @@ In addition, I have given guest lectures on Mapping Conflict and also conducted 
 
 </section>
 
-
-<iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
-
-
 </div>
+
+<div data-include="footer.html"></div>
+
 <script src="javascripts/scale.fix.js"></script>
+<script src="javascripts/HTMLInclude.min.js"></script>
 
 </body>
 </html>
