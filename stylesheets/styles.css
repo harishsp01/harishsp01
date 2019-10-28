@@ -11,13 +11,15 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 0 20px;
 }
 
+/* removed ol from this list*/
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
 /* removed indentation from ordered list*/
-ol li:before {
-  margin-left:-1.3em;
+ol {
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 h1, h2, h3 {
